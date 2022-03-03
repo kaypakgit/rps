@@ -1,0 +1,38 @@
+#scoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    align-items: center;
+    margin: 0 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+  .button img {
+    width: 150px;
+  }
+  .button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 1px;
+  }
